@@ -1,11 +1,10 @@
 <script setup>
 import ResultItem from './ResultItem.vue'
-
-const props = defineProps(['data'])
+import { searchState } from '@/state'
 </script>
 <template>
   <div class="result-container">
-    <ResultItem v-for="item in props.data" :result="item.name" v-bind:key="item.name" />
+    <ResultItem v-for="item in searchState.matching" :result="item.name" v-bind:key="item.name" />
   </div>
 </template>
 

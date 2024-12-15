@@ -12,3 +12,7 @@ To use the program, clone it locally, navigate to its directory, and run the fol
 The local address will be visible on the terminal.
 
 **Note**: The program is meant to be used on a mobile device in light mode. As such, please use either a mobile device, or the responsive design mode of your browser when testing the system.
+
+## Demo
+
+To view a demo video of the application, see `demo_recording.mp4`.
